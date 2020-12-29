@@ -69,6 +69,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/handheld_core_hardware.xml \
     frameworks/native/data/etc/android.hardware.camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.xml
  
+# Tethering
+PRODUCT_PACKAGES += \
+    WifiOverlay \
+    
 # LiveDisplay
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service-mediatek
