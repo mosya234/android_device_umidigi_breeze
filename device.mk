@@ -72,6 +72,7 @@ PRODUCT_COPY_FILES += \
 # Tethering
 PRODUCT_PACKAGES += \
     WifiOverlay \
+    TetheringConfigOverlay
     
 # LiveDisplay
 PRODUCT_PACKAGES += \
