@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_A5_Pro.mk
+    $(LOCAL_DIR)/aosp_breeze.mk
 
 COMMON_LUNCH_CHOICES += \
-    lineage_A5_Pro-userdebug
+    aosp_breeze-userdebug
