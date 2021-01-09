@@ -20,7 +20,6 @@ lib/libimsma_socketwrapper.so
 lib/libmtk_vt_service.so
 lib/libmtk_vt_wrapper.so
 lib/libmtkavenhancements.so
-lib/libmtklimiter.so
 lib/libsignal.so
 lib/libsink.so
 lib/libsource.so
@@ -29,6 +28,5 @@ lib/libvcodec_capenc.so
 lib/libvt_avsync.so
 lib64/libmtk_vt_wrapper.so
 lib64/libmtkavenhancements.so
-lib64/libmtklimiter.so
 lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
