@@ -14,8 +14,32 @@
 # limitations under the License.
 #
 
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/aosp_A5_Pro.mk
+
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/aosp_breeze.mk
+    $(LOCAL_DIR)/lineage_A5_Pro.mk
+
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/havoc_A5_Pro.mk
+    
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/xtended_A5_Pro.mk
+
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/bliss_A5_Pro.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_A5_Pro-userdebug
 
 COMMON_LUNCH_CHOICES += \
-    aosp_breeze-userdebug
+    lineage_A5_Pro-userdebug
+
+COMMON_LUNCH_CHOICES += \
+    havoc_A5_Pro-userdebug
+    
+COMMON_LUNCH_CHOICES += \
+    xtended_A5_Pro-userdebug
+
+COMMON_LUNCH_CHOICES += \
+    bliss_A5_Pro-userdebug
