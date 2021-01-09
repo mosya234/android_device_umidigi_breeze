@@ -14,17 +14,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit from UMIDIGI A5 Pro device
-$(call inherit-product, device/UMIDIGI/A5_Pro/device.mk)
+$(call inherit-product, device/umidigi/breeze/device.mk)
 
-# Inherit some common Havoc stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+# Inherit some common Lineage OS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := havoc_A5_Pro
-PRODUCT_DEVICE := A5_Pro
-PRODUCT_BRAND := UMIDIGI
-PRODUCT_MODEL := A5_Pro
-PRODUCT_MANUFACTURER := UMIDIGI
+PRODUCT_NAME := lineage_breeze
+PRODUCT_DEVICE := breeze
+PRODUCT_BRAND := umidigi
+PRODUCT_MODEL := breeze
+PRODUCT_MANUFACTURER := umidigi
 
 # Product characteristics
 PRODUCT_AAPT_CONFIG := xxhdpi

@@ -4,9 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/UMIDIGI/A5_Pro
+DEVICE_PATH := device/umidigi/breeze
 
-BOARD_VENDOR := UMIDIGI
+BOARD_VENDOR := umidigi
 
 # APEX
 TARGET_FLATTEN_APEX := true
@@ -37,9 +37,6 @@ USE_XML_AUDIO_POLICY_CONF := 1
 # Avb
 BOARD_AVB_ENABLE := false
 
-# Board
-TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
-
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
@@ -50,9 +47,6 @@ TARGET_NO_BOOTLOADER := true
 
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
-
-# Symbols
-TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
@@ -71,10 +65,6 @@ BOARD_MKBOOTIMG_ARGS += --kernel_offset $(BOARD_KERNEL_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --second_offset $(BOARD_SECOND_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --base $(BOARD_KERNEL_BASE)
 BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE) --board ""
-
-# Netd
-BUILD_BROKEN_DUP_RULES := true
-BUILD_BROKEN_PHONY_TARGETS := true
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -105,7 +95,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # Soong
-PRODUCT_SOONG_NAMESPACES += vendor/UMIDIGI/A5_Pro
+PRODUCT_SOONG_NAMESPACES += vendor/umidigi/breeze
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2019-06-05
