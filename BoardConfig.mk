@@ -4,6 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# mt6763 platform boardconfig
 DEVICE_PATH := device/umidigi/breeze
 
 BOARD_VENDOR := umidigi
