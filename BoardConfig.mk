@@ -9,6 +9,9 @@ DEVICE_PATH := device/umidigi/breeze
 
 BOARD_VENDOR := umidigi
 
+# Assertions
+TARGET_OTA_ASSERT_DEVICE := breeze, A5_Pro
+
 # APEX
 TARGET_FLATTEN_APEX := true
 
