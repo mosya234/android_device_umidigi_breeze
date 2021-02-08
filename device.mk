@@ -35,7 +35,8 @@ PRODUCT_PACKAGES += \
     
  # KPOC
  PRODUCT_PACKAGES += \
-     libsuspend
+     libsuspend \
+     android.hardware.health@2.0
 
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
