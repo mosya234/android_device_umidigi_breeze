@@ -33,6 +33,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Snap
     
+ # KPOC
+ PRODUCT_PACKAGES += \
+     libsuspend
+
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
