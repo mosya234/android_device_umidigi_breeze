@@ -39,3 +39,6 @@
 /dev/block/platform/bootdevice/by-name/odmdtbo /odmdtbo emmc defaults defaults
 /dev/block/platform/bootdevice/by-name/dtbo /dtbo emmc defaults defaults
 /dev/block/platform/bootdevice/by-name/otp /otp emmc defaults defaults
+
+ # ZRAM - Compressed RAM based Block Device (SWAP)
+ /dev/block/zram0                                none        swap   defaults    zramsize=2147483648
