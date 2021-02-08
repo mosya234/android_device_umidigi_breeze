@@ -19,6 +19,9 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     libaacwrapper
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_configuration.xml
+
 # Camera
 PRODUCT_PACKAGES += \
     Snap
