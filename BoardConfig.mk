@@ -11,6 +11,9 @@ BOARD_VENDOR := umidigi
 # APEX
 TARGET_FLATTEN_APEX := true
 
+# Assertions
+TARGET_OTA_ASSERT_DEVICE := breeze, A5_Pro
+
 # system-as-root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
