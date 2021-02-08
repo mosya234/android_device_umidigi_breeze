@@ -7,6 +7,10 @@
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/umidigi/breeze/breeze-vendor.mk)
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay\
