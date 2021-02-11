@@ -34,26 +34,10 @@ Camera | 16MP + 8MP + 5MP with Dual-LED and AF Triple Rear Camera | 16MP  Front 
 </a>
 </p>
 
-## Common android 10 build tree for:
+## Android 10 build tree for:
 <p>
-<a href="https://github.com/Havoc-OS/android_manifest">
-  <img src="https://img.shields.io/badge/manifest-Havoc%20OS-brightgreen" alt="Hadenix">
-</a>
-
 <a href="https://github.com/LineageOS/android">
   <img src="https://img.shields.io/badge/manifest-LineageOS-brightgreen" alt="Hadenix">
-</a>
-
-<a href="https://github.com/PixelExperience/manifest">
-  <img src="https://img.shields.io/badge/manifest-Pixel Experience / Plus-brightgreen" alt="Hadenix">
-</a>
-
-<a href="https://github.com/Project-Xtended/manifest">
-  <img src="https://img.shields.io/badge/manifest-MSM Xtended-brightgreen" alt="Hadenix">
-</a>
-
-<a href="https://github.com/BlissRoms/platform_manifest">
-  <img src="https://img.shields.io/badge/manifest-BlissROMs-brightgreen" alt="Hadenix">
 </a>
 </p>
 
@@ -65,7 +49,7 @@ UMIDIGI A5 Pro (codename: ![Hadenix](https://img.shields.io/badge/-breeze-blue) 
 
 ![Hadenix](https://img.shields.io/badge/-breeze-blue) released in 2019.
 
-### Patches for fix video, fingerprint & offline charging:
+### fingerprint & offline charging:
 <p>
 <a href="https://github.com/UMIDIGI-MT6763-Development/patches_umidigi_breeze">
   <img src="https://img.shields.io/badge/patches-umidigi_breeze-orange" alt="Hadenix">
