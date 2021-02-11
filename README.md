@@ -8,7 +8,7 @@
 
 Component Type | Details
 -------:|:-------------------------
-CPU     | Octa-Core 4 x 2.0GHz ARM Cortex-A53 + 4 x 1.5GHz ARM Cortex-A53 CPU Clock
+CPU     | Octa-Core 4 x 2.0GHz ARM Cortex-A53 + 4 x 1.5GHz ARM Cortex-A53
 Chipset | MediaTek MT6763
 GPU     | ARM Mali-G71 MP2, 770 MHz
 Memory  | 4GB LPDDR4(X), 1600MHz
